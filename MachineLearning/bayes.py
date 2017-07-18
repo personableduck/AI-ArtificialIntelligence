@@ -50,4 +50,4 @@ def result(name, value, expected=None):
     print "P(%s) = %.4f" % (name, value)
     if expected is not None:
         if abs(value - expected) > 0.0001:
-            raise Exception("Expected: %.4f" % expected)
+            raise Exception("Expected: %.4f" % expected) 
